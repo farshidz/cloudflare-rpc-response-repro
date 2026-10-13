@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare-rpc-response-repro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "repro": "node probe.cjs",
+    "start": "workerd serve config.capnp"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "workerd": "1.20260906.1"
+  }
+}

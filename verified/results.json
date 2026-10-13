@@ -1,0 +1,163 @@
+{
+  "workerdVersion": "1.20260906.1",
+  "compatibilityDate": "2024-09-23",
+  "nodeVersion": "v22.23.1",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "observedAt": "2026-10-13T05:16:04.274Z",
+  "results": [
+    {
+      "route": "/false-error",
+      "runtimeErrors": 5,
+      "samples": [
+        {
+          "status": 200,
+          "encoding": "identity",
+          "httpComplete": true,
+          "wireBytes": 11,
+          "wireHex": "7b226f6b223a747275657d",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "identity",
+          "httpComplete": true,
+          "wireBytes": 11,
+          "wireHex": "7b226f6b223a747275657d",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "identity",
+          "httpComplete": true,
+          "wireBytes": 11,
+          "wireHex": "7b226f6b223a747275657d",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "identity",
+          "httpComplete": true,
+          "wireBytes": 11,
+          "wireHex": "7b226f6b223a747275657d",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "identity",
+          "httpComplete": true,
+          "wireBytes": 11,
+          "wireHex": "7b226f6b223a747275657d",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        }
+      ]
+    },
+    {
+      "route": "/truncated",
+      "runtimeErrors": 5,
+      "samples": [
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 10,
+          "wireHex": "1f8b0800000000000013",
+          "validBody": false,
+          "decodeError": "unexpected end of file"
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 10,
+          "wireHex": "1f8b0800000000000013",
+          "validBody": false,
+          "decodeError": "unexpected end of file"
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 10,
+          "wireHex": "1f8b0800000000000013",
+          "validBody": false,
+          "decodeError": "unexpected end of file"
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 10,
+          "wireHex": "1f8b0800000000000013",
+          "validBody": false,
+          "decodeError": "unexpected end of file"
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 10,
+          "wireHex": "1f8b0800000000000013",
+          "validBody": false,
+          "decodeError": "unexpected end of file"
+        }
+      ]
+    },
+    {
+      "route": "/control",
+      "runtimeErrors": 0,
+      "samples": [
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 31,
+          "wireHex": "1f8b0800000000000013ab56cacf56b22a292a4dad0500905fd4a70b000000",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 31,
+          "wireHex": "1f8b0800000000000013ab56cacf56b22a292a4dad0500905fd4a70b000000",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 31,
+          "wireHex": "1f8b0800000000000013ab56cacf56b22a292a4dad0500905fd4a70b000000",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 31,
+          "wireHex": "1f8b0800000000000013ab56cacf56b22a292a4dad0500905fd4a70b000000",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        },
+        {
+          "status": 200,
+          "encoding": "gzip",
+          "httpComplete": true,
+          "wireBytes": 31,
+          "wireHex": "1f8b0800000000000013ab56cacf56b22a292a4dad0500905fd4a70b000000",
+          "decodedBody": "{\"ok\":true}",
+          "validBody": true
+        }
+      ]
+    }
+  ]
+}
